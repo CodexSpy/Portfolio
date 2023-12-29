@@ -270,7 +270,7 @@ footer{
         width: 300px; /* Full width on small screens */
         height: 200px; /* Maintain aspect ratio */
         border:none;
-        top: 115%; 
+        top: 110%; 
         left: 12%;/* Reset the top position */ /* Reset the left position */
         margin-top: 10px; /* Add margin for spacing on small screens */
     }
@@ -286,14 +286,14 @@ footer{
         font-size: 22px;
         left: 50%; /* Center horizontally on small screens */
         transform: translateX(-50%); /* Adjust for centering */
-        top: 145%; /* Reset the top position */
+        top: 140%; /* Reset the top position */
         margin-top: 10px; /* Add margin for spacing on small screens */
     }
     
     /* Works Section Styles */
     .works {
         left: auto; /* Reset the left position */
- top: 155%;
+ top: 145%;
     }
     
     /* Outer Work Styles */
@@ -321,7 +321,7 @@ footer{
     /* Resume Section Styles */
     .resume {
         position: absolute;
-        top:85%;
+        top:75%;
         flex-direction: column;
         font-weight: 900;
     }
@@ -331,8 +331,8 @@ footer{
     
     .download_button{
         position: absolute;
-        top: 83%;
-        left: 62%;
+        top: 73%;
+        left: 67%;
         width: 55px;
         font-size: 8px;
         text-align: center;
