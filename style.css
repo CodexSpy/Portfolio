@@ -1,0 +1,399 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+display: flow-root;
+}
+
+nav ul{
+display: flex;
+background-color: black;
+color: white;
+justify-content: right;
+font-weight: bold;
+}
+
+ul li{
+    list-style: none;
+    padding: 24px;
+    margin-right: 20px;
+    text-shadow: 4px 4px 10px rgb(247, 247, 47);
+}
+
+.logo{
+    width: 80px;
+    height: 68.5px;
+    border: 2px solid white;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.about{
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    padding: 20px;
+    top: 25%;
+    left: 10%;
+    border-radius: 40px;
+    text-align: justify;
+    border: 2px solid black;
+}
+
+.name{
+    display: inline;
+    position: relative;
+    left:2.5%;
+    padding: 10px 0;
+}
+
+h5{
+    padding: 0 10px;
+    display: inline;
+}
+p{
+    padding: 20px 0;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.download_button{
+    background-color: rgb(124, 124, 206);
+    color: white;
+    position: absolute;
+    width: 250px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    padding: 8px;
+    left:50%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1.5px solid black;
+}
+
+.characterimg{
+    position: absolute;
+float:right;
+width: 300px;
+height: 270px;
+top: 30%;
+left: 65%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mainhead{
+    position: absolute;
+    left:45%;
+    top: 90%;
+    padding: 20px;
+    text-shadow: 4px 8px 8px rgb(255, 255, 117);
+}
+.works{
+    position: absolute;
+    top: 105%;
+    left: 17%;
+
+}
+.outer {
+    color: black;
+    width: 300px;
+    border: 2px white solid;
+    border-radius: 30px;
+    margin: 15px 20px;
+    box-shadow: 4px -5px 10px blueviolet;
+}
+
+.works_img {
+    border-radius: 30px;
+    width: 280px;
+    height: 250px;
+    padding: 10px;
+
+}
+
+.marks {
+    background-color:rgb(150, 12, 150) ;
+    color: white;
+    border: 3px black solid;
+    border-radius: 20px;
+    width: 65px;
+    padding: 8px;
+    margin:14px;
+    font-weight: bold;
+
+
+}
+.subhead{
+    text-shadow: -2px 5px 8px purple;
+    padding: 10px;
+    margin-top: 12px;       
+ }
+
+p {
+    text-align: justify;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 17px;
+}
+.resume{
+    position: absolute;
+    display: inline-flex;
+    top:82%
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    margin: 15px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+ul li:hover{     
+ transform: translateY(-3px)
+}
+footer{
+    width: 99.7%;
+    height: 150px;
+    background-color: rgb(151, 51, 151);
+    border: 2px solid black;
+    position: absolute;
+    left: 0.1%;
+   top:190%;
+}
+._icon{
+    position: absolute;
+    left:40%;
+    top: 40%;
+}
+.twitter{
+    position: absolute;
+    left:47%;
+    top:40%;
+}
+.discord{
+    position: absolute;
+    left:55%;
+    top:40%;  
+}
+.follow_up{
+    position: absolute;
+    left: 45%;
+    top: 5%;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'Diphylleia', serif;
+}
+.rsvd{
+    position: absolute;
+    left: 39%;
+    top: 80%;
+    font-size: 16px;
+    font-weight: 1000;
+    font-family: 'Diphylleia', serif;
+}
+.copy{
+    position: absolute;
+    left: 60%;
+    top: 83%; 
+}
+.phone{
+    position: absolute;
+    right: 32%;
+    top: 3.5%;
+}
+.linked{
+    position: absolute;
+    right: 20%;
+    top: 3.5%;
+}
+.mail{
+    position: absolute;
+    right: 11%;
+    top: 3.5%;
+}
+@media only screen and (max-width: 432px) {
+    /* Navigation Styles */
+    nav{
+        position: absolute;
+    width: 99.9%;
+    top: 20%;
+    }
+    nav ul{
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center the items vertically */
+    }
+
+    ul li {
+        margin-right: 0; /* Remove margin on small screens */
+    }
+
+    /* Logo Styles */
+    .logo {
+        position: absolute;
+        width: 410px;
+        height: 180px; /* Adjust the size for larger screens if needed */
+    }
+
+    /* About Section Styles */
+    .about {
+        position: absolute;
+        width: 80%; /* Adjust the width for small screens */
+        top: 45%;/* Reset the top position */
+        height: 370px;
+        left: 4.5%;
+    }
+    p{
+        font-size: 14px;
+    }
+    .characterimg {
+        position: absolute;/* Adjust positioning on small screens */
+        width: 300px; /* Full width on small screens */
+        height: 200px; /* Maintain aspect ratio */
+        border:none;
+        top: 95%; 
+        left: 12%;/* Reset the top position */ /* Reset the left position */
+        margin-top: 10px; /* Add margin for spacing on small screens */
+    }
+    
+    /* Cards Section Styles */
+    .cards {
+        flex-direction: column; /* Stack cards vertically on small screens */
+        align-items: center; /* Center cards horizontally on small screens */
+    }
+    
+    /* Main Header Styles */
+    .mainhead {
+        font-size: 22px;
+        left: 50%; /* Center horizontally on small screens */
+        transform: translateX(-50%); /* Adjust for centering */
+        top: 117%; /* Reset the top position */
+        margin-top: 10px; /* Add margin for spacing on small screens */
+    }
+    
+    /* Works Section Styles */
+    .works {
+        left: auto; /* Reset the left position */
+ top: 130%;
+    }
+    
+    /* Outer Work Styles */
+    .outer {
+        width: 90%; /* Adjust the width for small screens */
+        margin: 10px auto; /* Center horizontally with margin for spacing */
+    }
+    
+    /* Works Image Styles */
+    .works_img {
+        width: 95%; /* Full width on small screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+    /* Marks Styles */
+    .marks {
+        margin: 10px 0; /* Add margin for spacing on small screens */
+    }
+    
+    /* Subhead Styles */
+    .subhead {
+        margin-top: 10px; /* Add margin for spacing on small screens */
+    }
+    
+    /* Resume Section Styles */
+    .resume {
+        position: absolute;
+        top:85%;
+        flex-direction: column;
+        font-weight: 900;
+    }
+    button{
+        border:3px dotted black;
+    }
+    
+    .download_button{
+        position: absolute;
+        top: 83%;
+        left: 73%;
+        width: 55px;
+        font-size: 8px;
+        text-align: center;
+
+    }
+    
+    /* Footer Styles */
+    footer {
+        width:99%;
+        top: 315%; /* Reset the top position */
+        margin-top: 20px; /* Add margin for spacing on small screens */
+    }
+    .follow_up{
+        position: absolute;
+        left: 32%;
+        top: 5%;
+        font-size: 20px;
+        font-weight: 1000;
+        font-family: 'Diphylleia', serif;
+    }
+    ._icon{
+        position: absolute;
+        left:25%;
+        top: 40%;
+    }
+    .twitter{
+        position: absolute;
+        left:40%;
+        top:40%;
+    }
+    .discord{
+        position: absolute;
+        left:56%;
+        top:40%;  
+    }
+    .rsvd{
+        position: absolute;
+        left: 15%;
+        top: 80%;
+        font-size: 11px;
+        font-weight: 1000;
+        font-family: 'Diphylleia', serif;
+    }
+    .copy{
+        position: absolute;
+        left: 72%;
+        top: 81%; 
+    }
+    .phone{
+        position: absolute;
+        right: 70%;
+        top: 11%;
+    }
+    .linked{
+        position: absolute;
+        right: 70%;
+        top: 45%;
+    }
+    .mail{
+        position: absolute;
+        right:70%;
+        top: 80%;
+    }
+}
