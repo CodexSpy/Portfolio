@@ -270,7 +270,7 @@ footer{
         width: 300px; /* Full width on small screens */
         height: 200px; /* Maintain aspect ratio */
         border:none;
-        top: 120%; 
+        top: 115%; 
         left: 12%;/* Reset the top position */ /* Reset the left position */
         margin-top: 10px; /* Add margin for spacing on small screens */
     }
@@ -286,7 +286,7 @@ footer{
         font-size: 22px;
         left: 50%; /* Center horizontally on small screens */
         transform: translateX(-50%); /* Adjust for centering */
-        top: 150%; /* Reset the top position */
+        top: 145%; /* Reset the top position */
         margin-top: 10px; /* Add margin for spacing on small screens */
     }
     
