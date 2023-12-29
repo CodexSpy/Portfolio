@@ -236,7 +236,7 @@ footer{
     nav{
         position: absolute;
     width: 99.9%;
-    top: 20%;
+    top: 24%;
     }
     nav ul{
         flex-direction: column; /* Stack items vertically on small screens */
@@ -250,7 +250,7 @@ footer{
     /* Logo Styles */
     .logo {
         position: absolute;
-        width: 410px;
+        width: 99%;
         height: 180px; /* Adjust the size for larger screens if needed */
     }
 
@@ -258,7 +258,7 @@ footer{
     .about {
         position: absolute;
         width: 80%; /* Adjust the width for small screens */
-        top: 45%;/* Reset the top position */
+        top: 50%;/* Reset the top position */
         height: 370px;
         left: 4.5%;
     }
@@ -270,7 +270,7 @@ footer{
         width: 300px; /* Full width on small screens */
         height: 200px; /* Maintain aspect ratio */
         border:none;
-        top: 95%; 
+        top: 100%; 
         left: 12%;/* Reset the top position */ /* Reset the left position */
         margin-top: 10px; /* Add margin for spacing on small screens */
     }
@@ -286,14 +286,14 @@ footer{
         font-size: 22px;
         left: 50%; /* Center horizontally on small screens */
         transform: translateX(-50%); /* Adjust for centering */
-        top: 117%; /* Reset the top position */
+        top: 130%; /* Reset the top position */
         margin-top: 10px; /* Add margin for spacing on small screens */
     }
     
     /* Works Section Styles */
     .works {
         left: auto; /* Reset the left position */
- top: 130%;
+ top: 140%;
     }
     
     /* Outer Work Styles */
@@ -342,7 +342,7 @@ footer{
     /* Footer Styles */
     footer {
         width:99%;
-        top: 315%; /* Reset the top position */
+        top: 350%; /* Reset the top position */
         margin-top: 20px; /* Add margin for spacing on small screens */
     }
     .follow_up{
