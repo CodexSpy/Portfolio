@@ -270,7 +270,7 @@ footer{
         width: 300px; /* Full width on small screens */
         height: 200px; /* Maintain aspect ratio */
         border:none;
-        top: 115%; 
+        top: 120%; 
         left: 12%;/* Reset the top position */ /* Reset the left position */
         margin-top: 10px; /* Add margin for spacing on small screens */
     }
@@ -332,7 +332,7 @@ footer{
     .download_button{
         position: absolute;
         top: 83%;
-        left: 67%;
+        left: 62%;
         width: 55px;
         font-size: 8px;
         text-align: center;
